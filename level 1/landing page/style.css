@@ -1,0 +1,196 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    background: url("images/vpn-4330232.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav ol {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ol li {
+    list-style: none;
+    margin: 0.1rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: rgb(1, 1, 133);
+    font-weight: 500;
+}
+
+nav ol li:hover {
+    background-color: rgb(10, 86, 199);
+    color: rgb(235, 234, 225);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+nav .logo img {
+    height: 5rem;
+    padding: 0;
+}
+
+.section1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.section1 h1 {
+    font-size: 4rem;
+    color: rgb(0, 0, 73);
+}
+
+.section1 p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 73);
+}
+
+.section1 button {
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    margin: 1rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: rgba(2, 2, 104, 0.884);
+    padding: 1rem;
+    color: white;
+}
+
+.section1 button:hover {
+    transition: 0.5s all;
+    background-color: rgb(2, 2, 104);
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgb(191, 191, 231);
+    cursor: pointer;
+}
+
+.section1 button:active {
+    font-size: 1.5rem;
+}
+
+.section1 button a {
+    text-decoration: none;
+    color: white;
+}
+
+.sec2div {
+    padding: 2rem 0rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.sec2img {
+    max-height: 20rem;
+    border-radius: 2rem;
+}
+
+.anotherflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.sec2btn {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    margin: 1rem;
+    border-radius: 2rem;
+    border: none;
+    background-color: rgba(2, 2, 104, 0.884);
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.sec2btn:hover {
+    transition: 0.5s;
+    background-color: rgba(2, 2, 104, 0.89);
+    box-shadow: 0.5rem 0.5rem 3rem rgb(40, 40, 255);
+}
+
+.sec2btn:active {
+    font-size: 1.4rem;
+    transition: 0.5s;
+    background-color: rgb(2, 2, 104);
+}
+
+.section2 {
+    background-color: rgba(111, 159, 248, 0.096);
+}
+
+.section3 {
+    background-color: rgba(111, 159, 248, 0.096);
+}
+
+.sec3img {
+    height: 20rem;
+    border-radius: 3.5rem;
+}
+
+.sec3maindiv {
+    display: flex;
+}
+
+.sec3maindiv div {
+    margin: 3rem;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.laptopimg {
+    height: 14rem;
+}
+
+.sec2h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.sec3h2 {
+    font-size: 2rem;
+    text-align: center;
+    font: bold;
+}
